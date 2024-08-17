@@ -57,7 +57,7 @@ function App() {
         </div>
 
         <section className="mb-8">
-          <h2 className="text-lg sm:text-xl font-semibold text-gray-800 border-b pb-2 mb-4">
+          <h2 className="text-lg sm:text-xl font-semibold text-gray-800 border-b-2 pb-2 mb-4">
             EDUCATION
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -88,7 +88,7 @@ function App() {
         </section>
 
         <section className="mb-8">
-          <h2 className="text-lg sm:text-xl font-semibold text-gray-800 border-b pb-2 mb-4">
+          <h2 className="text-lg sm:text-xl font-semibold text-gray-800 border-b-2 pb-2 mb-4">
             SKILLS AND TOOLS
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -113,7 +113,7 @@ function App() {
         </section>
 
         <section className="mb-8">
-          <h2 className="text-lg sm:text-xl font-semibold text-gray-800 border-b pb-2 mb-4">
+          <h2 className="text-lg sm:text-xl font-semibold text-gray-800 border-b-2 pb-2 mb-4">
             ACHIEVEMENTS & EXPERIENCE
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -140,7 +140,7 @@ function App() {
         </section>
 
         <section className="mb-8">
-          <h2 className="text-lg sm:text-xl font-semibold text-gray-800 border-b pb-2 mb-4">
+          <h2 className="text-lg sm:text-xl font-semibold text-gray-800 border-b-2 pb-2 mb-4">
             PROJECTS
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -203,7 +203,7 @@ function App() {
         </section>
 
         <section>
-          <h2 className="text-lg sm:text-xl font-semibold text-gray-800 border-b pb-2 mb-4">
+          <h2 className="text-lg sm:text-xl font-semibold text-gray-800 border-b-2 pb-2 mb-4">
             LANGUAGES
           </h2>
           <ul className="list-disc list-inside text-gray-600 mt-2">
