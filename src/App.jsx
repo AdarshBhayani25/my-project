@@ -5,59 +5,61 @@ import Profile_picture from "./Profile_picture.png";
 
 function App() {
   return (
-   
-      <div className="bg-white shadow-lg rounded-lg p-6 sm:p-10 max-w-5xl mx-auto my-10">
-        <div className="flex flex-col md:flex-row justify-between items-center">
-          <header className="text-left mb-10 md:mb-0 md:w-2/3">
-            <h1 className="text-3xl font-bold text-gray-800">
-              ADARSH SANJAYBHAI BHAYANI
-            </h1>
-            <div className="mt-2 text-sm text-gray-600 flex flex-col gap-2">
-              <p>
-                <a
-                  href="mailto:adarshbhayani01234@gmail.com"
-                  className="text-blue-500"
-                >
-                  adarshbhayani01234@gmail.com
-                </a>{" "}
-                | +918320628256 | Ahmedabad, Gujarat
-              </p>
-              <div className="flex items-center gap-4 mt-2">
-                <a
-                  href="https://www.linkedin.com/in/adarsh-bhayani-78126b257/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-                  className="text-blue-500"
-                >
-                  <FaLinkedin size={24} />
-                </a>
-                <a
-                  href="https://github.com/AdarshBhayani25"
-                  className="text-gray-800"
-                >
-                  <FaGithub size={24} />
-                </a>
-                <a
-                  href="https://www.figma.com/@adarshbhayani"
-                  className="text-pink-600"
-                >
-                  <FaFigma size={24} />
-                </a>
-              </div>
-            </div>
-          </header>
-          <div className="w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 bg-gray-100 rounded-full flex justify-center items-center">
+    <div id="background" className="min-h-screen bg-gray-100 p-4">
+      <div className="bg-white shadow-lg rounded-lg p-6 max-w-4xl mx-auto">
+        <div className="flex flex-col items-center sm:flex-row sm:items-start">
+          <div className="flex-shrink-0 mb-6 sm:mb-0 sm:mr-6">
             <img
               src={Profile_picture}
               alt="profile"
-              className="w-full h-full rounded-full object-cover"
+              className="w-32 h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 rounded-full object-cover"
             />
+          </div>
+          <div className="text-center sm:text-left">
+            <header className="mb-6">
+              <h1 className="text-2xl sm:text-3xl font-bold text-gray-800">
+                ADARSH SANJAYBHAI BHAYANI
+              </h1>
+              <div className="mt-2 text-sm text-gray-600">
+                <p>
+                  <a
+                    href="mailto:adarshbhayani01234@gmail.com"
+                    className="text-blue-500"
+                  >
+                    adarshbhayani01234@gmail.com
+                  </a>{" "}
+                  | +918320628256 | Ahmedabad, Gujarat
+                </p>
+                <div className="flex justify-center sm:justify-start gap-4 mt-2">
+                  <a
+                    href="https://www.linkedin.com/in/adarsh-bhayani-78126b257/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                    className="text-blue-500"
+                  >
+                    <FaLinkedin size={24} />
+                  </a>
+                  <a
+                    href="https://github.com/AdarshBhayani25"
+                    className="text-gray-800"
+                  >
+                    <FaGithub size={24} />
+                  </a>
+                  <a
+                    href="https://www.figma.com/@adarshbhayani"
+                    className="text-pink-600"
+                  >
+                    <FaFigma size={24} />
+                  </a>
+                </div>
+              </div>
+            </header>
           </div>
         </div>
 
         <section className="mb-8">
-          <h2 className="text-xl font-semibold text-gray-800 border-b pb-2 mb-4">
+          <h2 className="text-lg sm:text-xl font-semibold text-gray-800 border-b pb-2 mb-4">
             EDUCATION
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div>
               <h3 className="font-semibold text-gray-700">
                 B.E. IN COMPUTER ENGINEERING
@@ -85,10 +87,10 @@ function App() {
         </section>
 
         <section className="mb-8">
-          <h2 className="text-xl font-semibold text-gray-800 border-b pb-2 mb-4">
+          <h2 className="text-lg sm:text-xl font-semibold text-gray-800 border-b pb-2 mb-4">
             SKILLS AND TOOLS
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div>
               <h3 className="font-semibold text-gray-700">
                 PROGRAMMING LANGUAGES:
@@ -110,10 +112,10 @@ function App() {
         </section>
 
         <section className="mb-8">
-          <h2 className="text-xl font-semibold text-gray-800 border-b pb-2 mb-4">
+          <h2 className="text-lg sm:text-xl font-semibold text-gray-800 border-b pb-2 mb-4">
             ACHIEVEMENTS & EXPERIENCE
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div>
               <h3 className="font-semibold text-gray-700">
                 HackSpring Hackathon (GEC Gandhinagar)
@@ -137,10 +139,10 @@ function App() {
         </section>
 
         <section className="mb-8">
-          <h2 className="text-xl font-semibold text-gray-800 border-b pb-2 mb-4">
+          <h2 className="text-lg sm:text-xl font-semibold text-gray-800 border-b pb-2 mb-4">
             PROJECTS
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div>
               <h3 className="font-semibold text-gray-700">UI/UX PROJECTS:</h3>
               <ul className="list-disc list-inside text-gray-600 mt-2">
@@ -200,7 +202,7 @@ function App() {
         </section>
 
         <section>
-          <h2 className="text-xl font-semibold text-gray-800 border-b pb-2 mb-4">
+          <h2 className="text-lg sm:text-xl font-semibold text-gray-800 border-b pb-2 mb-4">
             LANGUAGES
           </h2>
           <ul className="list-disc list-inside text-gray-600 mt-2">
@@ -210,7 +212,7 @@ function App() {
           </ul>
         </section>
       </div>
- 
+    </div>
   );
 }
 
