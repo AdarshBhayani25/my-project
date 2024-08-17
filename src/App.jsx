@@ -7,14 +7,8 @@ function App() {
   return (
     <div id="background" className="min-h-screen bg-gray-100 p-4">
       <div className="bg-white shadow-lg rounded-lg p-6 max-w-4xl mx-auto">
-        <div className="flex flex-col items-center sm:flex-row sm:items-start">
-          <div className="flex-shrink-0 mb-6 sm:mb-0 sm:mr-6">
-            <img
-              src={Profile_picture}
-              alt="profile"
-              className="w-32 h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 rounded-full object-cover"
-            />
-          </div>
+        <div className="flex flex-col-reverse sm:flex-row items-center sm:items-start justify-between">
+        
           <div className="text-center sm:text-left">
             <header className="mb-6">
               <h1 className="text-2xl sm:text-3xl font-bold text-gray-800">
@@ -52,6 +46,13 @@ function App() {
                 </div>
               </div>
             </header>
+          </div>
+          <div className="flex-shrink-0 mb-6 sm:mb-0 sm:mr-6">
+            <img
+              src={Profile_picture}
+              alt="profile"
+              className="w-32 h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 rounded-full object-cover"
+            />
           </div>
         </div>
 
